@@ -12,4 +12,8 @@ LLM_API = os.getenv("LLM_KEY")
 
 llm = GigaChat(credentials=LLM_API, verify_ssl_certs=False, model="GigaChat-2")
 
+def main():
+    pass
 
+if __name__=="__main__":
+    main()
